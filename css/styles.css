@@ -4,15 +4,12 @@
 	text-align:center;
 	width:50%;
 }
-input {
-margin: 6em auto;
-}
 
 .output {
 	background-color: black;
 	border-radius: 10px;
 	color:white;
 	line-height: 1.5em;
-	margin-top: 3em auto;
+	margin: 2em auto;
 	text-align: center;
 }
