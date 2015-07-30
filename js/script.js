@@ -30,5 +30,12 @@ $(document).ready(function() {
 	fizzbuzz(highNumber);
 
 	});
-	
+
+	$("#highNumber").keypress(function(e){  //listens for enter keydown and calls the button click event
+		if(e.which == 13) {
+			$('button').click();
+		}
+
+	});
+
 });
